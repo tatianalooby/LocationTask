@@ -12,6 +12,8 @@
 		DE2AB06D1E6AC6A200F17C13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2AB06B1E6AC6A200F17C13 /* Main.storyboard */; };
 		DE2AB06F1E6AC6A200F17C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2AB06E1E6AC6A200F17C13 /* Assets.xcassets */; };
 		DE2AB0721E6AC6A200F17C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2AB0701E6AC6A200F17C13 /* LaunchScreen.storyboard */; };
+		DE2AB07B1E6AC8A600F17C13 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2AB07A1E6AC8A600F17C13 /* CoreLocation.framework */; };
+		DE2AB07D1E6AD02200F17C13 /* earth.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE2AB07C1E6AD02200F17C13 /* earth.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DE2AB06E1E6AC6A200F17C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2AB0711E6AC6A200F17C13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2AB0731E6AC6A200F17C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2AB07A1E6AC8A600F17C13 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DE2AB07C1E6AD02200F17C13 /* earth.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2AB07B1E6AC8A600F17C13 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				DE2AB0661E6AC6A200F17C13 /* LocationTask */,
 				DE2AB0651E6AC6A200F17C13 /* Products */,
+				DE2AB0791E6AC8A500F17C13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +66,17 @@
 				DE2AB06E1E6AC6A200F17C13 /* Assets.xcassets */,
 				DE2AB0701E6AC6A200F17C13 /* LaunchScreen.storyboard */,
 				DE2AB0731E6AC6A200F17C13 /* Info.plist */,
+				DE2AB07C1E6AD02200F17C13 /* earth.jpeg */,
 			);
 			path = LocationTask;
+			sourceTree = "<group>";
+		};
+		DE2AB0791E6AC8A500F17C13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE2AB07A1E6AC8A600F17C13 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +140,7 @@
 			files = (
 				DE2AB0721E6AC6A200F17C13 /* LaunchScreen.storyboard in Resources */,
 				DE2AB06F1E6AC6A200F17C13 /* Assets.xcassets in Resources */,
+				DE2AB07D1E6AD02200F17C13 /* earth.jpeg in Resources */,
 				DE2AB06D1E6AC6A200F17C13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +315,7 @@
 				DE2AB0781E6AC6A200F17C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
